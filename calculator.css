@@ -1,0 +1,59 @@
+.container {
+  max-width: 400px;
+  margin: 10vh auto 0 auto;
+  box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+  border-radius: 1em;
+  background-color: cyan;
+}
+
+#display {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 25px;
+  border-top: 2px solid #999;
+  border-left: 2px solid #999;
+  border-right: 2px solid #999;
+  border-bottom: 2px solid #999;
+  background-color: cyan;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: grid;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #999;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: aquamarine;
+  border-radius: 5px;
+}
+
+.buttons > div {
+  border-top: 1px solid #999;
+  border-right: 1px solid #999;
+  border-radius: 5px;
+}
+
+.button {
+  border: 0.5px solid #999;
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  border: 5px;
+}
+
+#equal {
+  background-color: cyan;
+  color: red;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: cyan;
+  color: red;
+  transition: 0.5s ease-in-out;
+  border-radius: 5px;
+}
